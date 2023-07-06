@@ -14,21 +14,25 @@ console.log(sum)
 // "Sum: 10" (since 8 + 2 = 10) inside the paragraph with id="sum-el"
 
 function add() {
-    console.log("add")
-    sum.textContent = num1 + num2;
+    //console.log("add")
+    let answer = num1 + num2;
+    sum.textContent = "Answer: " + answer;
 }
 
 function subtract() {
-    console.log("subtract")
-    sum.textContent = num1 - num2;
+    //console.log("subtract")
+    let answer = num1 - num2;
+    sum.textContent = "Answer: " + answer;
 }
 
 function divide() {
-    console.log("divide")
-    sum.textContent = num1 / num2;
+    //console.log("divide")
+    let answer = num1 / num2;
+    sum.textContent = "Answer: " + answer;
 }
 
 function multiply() {
-    console.log("multiply")
-    sum.textContent = num1 * num2;
+    //console.log("multiply")
+    let answer = num1 * num2;
+    sum.textContent = "Answer: " + answer;
 }
